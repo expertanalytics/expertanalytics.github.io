@@ -1,14 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C++ on Expert Analytics</title><link>https://expertanalytics.no/training/cpp/</link><description>Recent content in C++ on Expert Analytics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Jan 2019 14:15:05 +0100</lastBuildDate><atom:link href="https://expertanalytics.no/training/cpp/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to C++</title><link>https://expertanalytics.no/training/cpp/introduction/</link><pubDate>Sat, 05 Jan 2019 13:38:37 +0100</pubDate><guid>https://expertanalytics.no/training/cpp/introduction/</guid><description>An introduction to the C++ programming language. An excellent starting point for those who are familiar with programming, but who have never worked with C++.
-Course Content The course will cover the following topics:
-C++ specific syntax Data types and typecasting Overloading of functions and operators I/O in C++ Pointers Commonly used standard library classes Prerequisite Some experience with other programming languages.
-Duration: 2-6 hours Tools Introduced C++ C++ is a widely used general-purpose, strongly typed, compiled programming language. C++ encompasses high-level features, such as objects and templates, as well as facilities for low-level memory manipulation. Due to its low-level features, C++ offers excellent performance, and is often used in performance-critical applications, such as drivers and embedded firmware. The high-level features of the language also makes it highly flexible, and its many uses include system software, client-server applications, and application software, such as video games.</description></item><item><title>Numerical C++</title><link>https://expertanalytics.no/training/cpp/numerical/</link><pubDate>Sat, 05 Jan 2019 14:06:11 +0100</pubDate><guid>https://expertanalytics.no/training/cpp/numerical/</guid><description>If a program is performing any form of numerical operations, it is likely that it will become the program bottleneck. To minimize the impact of the bottleneck, care must be taken to ensure that the code being executed is as optimized as possible.
-Course Content In this course we will introduce the numerical library Armadillo. We will give an overview of the syntax, and how to employ the language to solve large-scale numerical problems.
-Prerequisite This course requires some familiarity with the C++ programming language, introduced here.
-Duration: 2 hours Tools Introduced Armadillo Armadillo is a linear algebra software library for the C++ programming language. It aims to provide efficient and streamlined base calculations, while at the same time having a straightforward and easy-to-use interface. Its intended target users are scientists and engineers.</description></item><item><title>Templating and Metaprogramming</title><link>https://expertanalytics.no/training/cpp/templating/</link><pubDate>Sat, 05 Jan 2019 14:14:51 +0100</pubDate><guid>https://expertanalytics.no/training/cpp/templating/</guid><description>Templates are a powerful tool in C++ that allows you to write generalized functions and classes, enabling them to depend on free parameters that are set whenever they are used. This is commonly used to create functions that can take arguments of any type as input.
-With the C++11 standard, variadic templates were introduced. Variadic templates not only allows you to make typesafe variadic functions, but also enables templates to be used for metaprogramming: writing code that writes code.
-Course Content In this course, we will give an introduction to programming with C++ templates and variadic functions. Topics include:
-Using templates to create type-independent functions and classes Creating variadic tempate functions - functions that take an arbitrary number of arguments, while being typesafe Metaprogramming with templates: make the compiler write some of your code Prerequisite This course requires familiarity with the C++ programming language.
-Duration: 2-4 hours</description></item><item><title>Machine Learning</title><link>https://expertanalytics.no/training/cpp/machine-learning/</link><pubDate>Sat, 05 Jan 2019 14:15:05 +0100</pubDate><guid>https://expertanalytics.no/training/cpp/machine-learning/</guid><description>Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed. It is the study and construction of algorithms that can learn from and make predictions on data. Such algorithms operate by building a model from example inputs in order to make data-driven predictions or decisions, rather than following strictly static program instructions. The term &amp;ldquo;machine learning&amp;rdquo; is an umbrella term and can be used to describe one of the following topics:
-Classification: Identifying categories an object belongs to. Regression: Predict values associated with objects. Clustering: Automatically group similar objects into sets. Dimension reduction: Make large scale problems more manageable. Model selection: Find and calibrate the best models. Preprocessing: Normalizing of raw data preparing it for learning algorithms. Course Content In this course we will focus on the application of tools to perform various aspects of machine learning, using the Dlib library. We will touch base on how the various algorithms work.
-Prerequisite The course requires familiarity with C++ programming language.
-Duration: 4-6 hours Tools Introduced Dlib Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++. The software is open source and cross platform compatible, and also features more general purpose functionality e.g. linear algebra, image processing, GUI etc. The library supports a number of machine learning algorithms, such as Support Vector Machines and neural networks.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C++ on Expert Analytics</title><link>https://expertanalytics.no/training/cpp/</link><description>Recent content in C++ on Expert Analytics</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 05 Jan 2019 14:15:05 +0100</lastBuildDate><atom:link href="https://expertanalytics.no/training/cpp/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to C++</title><link>https://expertanalytics.no/training/cpp/introduction/</link><pubDate>Sat, 05 Jan 2019 13:38:37 +0100</pubDate><guid>https://expertanalytics.no/training/cpp/introduction/</guid><description>&lt;p>An introduction to the C++ programming language. An excellent starting
+point for those who are familiar with programming, but who have never
+worked with C++.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>The course will cover the following topics:&lt;/p>
+&lt;ul>
+&lt;li>C++ specific syntax&lt;/li>
+&lt;li>Data types and typecasting&lt;/li>
+&lt;li>Overloading of functions and operators&lt;/li>
+&lt;li>I/O in C++&lt;/li>
+&lt;li>Pointers&lt;/li>
+&lt;li>Commonly used standard library classes&lt;/li>
+&lt;/ul>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>Some experience with other programming languages.&lt;/p>
+&lt;h2 id="duration-2-6-hours">Duration: 2-6 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>C++&lt;/dt>
+&lt;dd>C++ is a widely used general-purpose, strongly typed, compiled
+programming language. C++ encompasses high-level features, such as
+objects and templates, as well as facilities for low-level memory
+manipulation. Due to its low-level features, C++ offers excellent
+performance, and is often used in performance-critical applications,
+such as drivers and embedded firmware. The high-level features of
+the language also makes it highly flexible, and its many uses
+include system software, client-server applications, and application
+software, such as video games.&lt;/dd>
+&lt;/dl></description></item><item><title>Numerical C++</title><link>https://expertanalytics.no/training/cpp/numerical/</link><pubDate>Sat, 05 Jan 2019 14:06:11 +0100</pubDate><guid>https://expertanalytics.no/training/cpp/numerical/</guid><description>&lt;p>If a program is performing any form of numerical operations, it is
+likely that it will become the program bottleneck. To minimize the
+impact of the bottleneck, care must be taken to ensure that the code
+being executed is as optimized as possible.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course we will introduce the numerical library Armadillo. We
+will give an overview of the syntax, and how to employ the language to
+solve large-scale numerical problems.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>This course requires some familiarity with the C++ programming
+language, introduced &lt;a href="https://expertanalytics.no/training/cpp/introduction/">here&lt;/a>.&lt;/p>
+&lt;h2 id="duration-2-hours">Duration: 2 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Armadillo&lt;/dt>
+&lt;dd>Armadillo is a linear algebra software library for the C++
+programming language. It aims to provide efficient and streamlined
+base calculations, while at the same time having a straightforward
+and easy-to-use interface. Its intended target users are scientists
+and engineers.&lt;/dd>
+&lt;/dl></description></item><item><title>Templating and Metaprogramming</title><link>https://expertanalytics.no/training/cpp/templating/</link><pubDate>Sat, 05 Jan 2019 14:14:51 +0100</pubDate><guid>https://expertanalytics.no/training/cpp/templating/</guid><description>&lt;p>Templates are a powerful tool in C++ that allows you to write
+generalized functions and classes, enabling them to depend on free
+parameters that are set whenever they are used. This is commonly used
+to create functions that can take arguments of any type as input.&lt;/p>
+&lt;p>With the C++11 standard, variadic templates were introduced. Variadic
+templates not only allows you to make typesafe variadic functions, but
+also enables templates to be used for metaprogramming: writing code
+that writes code.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course, we will give an introduction to programming with C++
+templates and variadic functions. Topics include:&lt;/p>
+&lt;ul>
+&lt;li>Using templates to create type-independent functions and classes&lt;/li>
+&lt;li>Creating variadic tempate functions - functions that take an
+arbitrary number of arguments, while being typesafe&lt;/li>
+&lt;li>Metaprogramming with templates: make the compiler write some of your
+code&lt;/li>
+&lt;/ul>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>This course requires familiarity with the C++ programming language.&lt;/p>
+&lt;h2 id="duration-2-4-hours">Duration: 2-4 hours&lt;/h2></description></item><item><title>Machine Learning</title><link>https://expertanalytics.no/training/cpp/machine-learning/</link><pubDate>Sat, 05 Jan 2019 14:15:05 +0100</pubDate><guid>https://expertanalytics.no/training/cpp/machine-learning/</guid><description>&lt;p>Machine learning is the field of study that gives computers the
+ability to learn without being explicitly programmed. It is the study
+and construction of algorithms that can learn from and make
+predictions on data. Such algorithms operate by building a model from
+example inputs in order to make data-driven predictions or decisions,
+rather than following strictly static program instructions. The term
+&amp;ldquo;machine learning&amp;rdquo; is an umbrella term and can be used to describe one
+of the following topics:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Classification:&lt;/strong> Identifying categories an object belongs to.&lt;/li>
+&lt;li>&lt;strong>Regression:&lt;/strong> Predict values associated with objects.&lt;/li>
+&lt;li>&lt;strong>Clustering:&lt;/strong> Automatically group similar objects into sets.&lt;/li>
+&lt;li>&lt;strong>Dimension reduction:&lt;/strong> Make large scale problems more manageable.&lt;/li>
+&lt;li>&lt;strong>Model selection:&lt;/strong> Find and calibrate the best models.&lt;/li>
+&lt;li>&lt;strong>Preprocessing:&lt;/strong> Normalizing of raw data preparing it for learning algorithms.&lt;/li>
+&lt;/ul>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course we will focus on the application of tools to perform
+various aspects of machine learning, using the Dlib library. We will
+touch base on how the various algorithms work.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>The course requires familiarity with C++ programming language.&lt;/p>
+&lt;h2 id="duration-4-6-hours">Duration: 4-6 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Dlib&lt;/dt>
+&lt;dd>Dlib is a modern C++ toolkit containing machine learning algorithms
+and tools for creating complex software in C++. The software is open
+source and cross platform compatible, and also features more general
+purpose functionality e.g. linear algebra, image processing, GUI
+etc. The library supports a number of machine learning algorithms,
+such as Support Vector Machines and neural networks.&lt;/dd>
+&lt;/dl></description></item></channel></rss>

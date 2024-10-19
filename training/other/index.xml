@@ -1,8 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miscellaneous Topics on Expert Analytics</title><link>https://expertanalytics.no/training/other/</link><description>Recent content in Miscellaneous Topics on Expert Analytics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Jan 2019 14:20:16 +0100</lastBuildDate><atom:link href="https://expertanalytics.no/training/other/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://expertanalytics.no/training/other/git/</link><pubDate>Sat, 05 Jan 2019 14:19:45 +0100</pubDate><guid>https://expertanalytics.no/training/other/git/</guid><description>Version control systems are essential for any level of reliable code development. The by far most popular version control system is GIT, with its wide range of advanced tools.
-Course Content In this course we will give an introduction to GIT and its functionality. We will go through interaction with repository, branching and merging, and how to address some corner case problems.
-Prerequisite Some experience with an command-line interface tool.
-Duration: 2 hours Tools Introduced GIT Git is a widely used source code management system for software development. It is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.</description></item><item><title>Regular Expressions</title><link>https://expertanalytics.no/training/other/regex/</link><pubDate>Sat, 05 Jan 2019 14:20:16 +0100</pubDate><guid>https://expertanalytics.no/training/other/regex/</guid><description>Regular expressions are essentially a tiny, highly specialized programming language. It is a powerful tool for extracting meaningful information out of unstructured sources. A regular expression is mainly used in pattern matching with strings, or string matching, i.e. &amp;ldquo;find and replace&amp;rdquo;-like operations. Using this little language, you specify the rules for the set of possible strings that you want to match; this set might contain English sentences, or e-mail addresses, or TeX commands, or anything you like.
-Course Content In this course the formal language of regular expression will be introduced. Afterwards we will show how the language can be applied to various test cases. We will also discuss the various regular expression dialects and how to implement regular expressions in a programming language like Python.
-Prerequisite This course aims at the introduction to regular expression without any prior knowledge about the language.
-Some experience with Python can be an advantage.
-Duration: 2-6 hours Tools Introduced Python Regular Expression The Python regular expression module is an implementation of regular expression made available from inside of Python. The expression used here are the the Perl dialect, one of the most popular dialects of regular expression.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miscellaneous Topics on Expert Analytics</title><link>https://expertanalytics.no/training/other/</link><description>Recent content in Miscellaneous Topics on Expert Analytics</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 05 Jan 2019 14:20:16 +0100</lastBuildDate><atom:link href="https://expertanalytics.no/training/other/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://expertanalytics.no/training/other/git/</link><pubDate>Sat, 05 Jan 2019 14:19:45 +0100</pubDate><guid>https://expertanalytics.no/training/other/git/</guid><description>&lt;p>Version control systems are essential for any level of reliable code
+development. The by far most popular version control system is GIT,
+with its wide range of advanced tools.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course we will give an introduction to GIT and its
+functionality. We will go through interaction with repository,
+branching and merging, and how to address some corner case problems.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>Some experience with an command-line interface tool.&lt;/p>
+&lt;h2 id="duration-2-hours">Duration: 2 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>GIT&lt;/dt>
+&lt;dd>Git is a widely used source code management system for software
+development. It is a distributed revision control system with an
+emphasis on speed, data integrity, and support for distributed,
+non-linear workflows.&lt;/dd>
+&lt;/dl></description></item><item><title>Regular Expressions</title><link>https://expertanalytics.no/training/other/regex/</link><pubDate>Sat, 05 Jan 2019 14:20:16 +0100</pubDate><guid>https://expertanalytics.no/training/other/regex/</guid><description>&lt;p>Regular expressions are essentially a tiny, highly specialized
+programming language. It is a powerful tool for extracting meaningful
+information out of unstructured sources. A regular expression is
+mainly used in pattern matching with strings, or string matching,
+i.e. &amp;ldquo;find and replace&amp;rdquo;-like operations. Using this little language,
+you specify the rules for the set of possible strings that you want to
+match; this set might contain English sentences, or e-mail addresses,
+or TeX commands, or anything you like.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course the formal language of regular expression will be
+introduced. Afterwards we will show how the language can be applied to
+various test cases. We will also discuss the various regular
+expression dialects and how to implement regular expressions in a
+programming language like Python.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>This course aims at the introduction to regular expression without any
+prior knowledge about the language.&lt;/p>
+&lt;p>Some experience with &lt;a href="https://www.python.org">Python&lt;/a> can be an advantage.&lt;/p>
+&lt;h2 id="duration-2-6-hours">Duration: 2-6 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Python Regular Expression&lt;/dt>
+&lt;dd>The &lt;a href="https://docs.python.org/3/howto/regex.html#regex-howto">Python regular expression
+module&lt;/a> is
+an implementation of regular expression made available from inside
+of Python. The expression used here are the the Perl dialect, one of
+the most popular dialects of regular expression.&lt;/dd>
+&lt;/dl></description></item></channel></rss>

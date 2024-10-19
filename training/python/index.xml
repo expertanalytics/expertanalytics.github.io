@@ -1,27 +1,234 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Expert Analytics</title><link>https://expertanalytics.no/training/python/</link><description>Recent content in Python on Expert Analytics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Jan 2019 14:18:30 +0100</lastBuildDate><atom:link href="https://expertanalytics.no/training/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to Python</title><link>https://expertanalytics.no/training/python/introduction/</link><pubDate>Sat, 05 Jan 2019 14:16:58 +0100</pubDate><guid>https://expertanalytics.no/training/python/introduction/</guid><description>An introduction to the Python programming language. An excellent starting point for those who have never used Python before, but want to learn what it is about.
-Course Content The course will introduce how to create and use the following code structures:
-Variables and data types for- and while-loops Branches Functions Classes The course also covers an introduction to the Python interpreter and code documentation for easy navigation in the Python landscape.
-Prerequisite This course aims at the introduction to Python without any prior knowledge about the language.
-Duration: 2-6 hours Tools introduced Python Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java. The language provides constructs intended to enable clear programs on both a small and large scale.</description></item><item><title>Numerical Python</title><link>https://expertanalytics.no/training/python/numerical/</link><pubDate>Sat, 05 Jan 2019 14:17:03 +0100</pubDate><guid>https://expertanalytics.no/training/python/numerical/</guid><description>The large majority of mathematical modeling requires proper numerical software. We at Expert Analytics believe that the corner stone for the vast majority of such problems should be solved using Python. (Though in many cases it should be combined with programs written in C++, as addressed here)
-Course Content In this course we will give an introduction to numerical Python. We will focus on computational speed and illustrate how to process large data structures using Python&amp;rsquo;s minimal formulation. The course will also introduce some of the most popular numerical processing tools and visualize the results.
-Prerequisite This course requires some familiarity with the Python programming language, introduced here.
-Duration: 2-4 hours Tools introduced Numpy Numpy is the most popular tool for performing numerical operations in Python. The library consist of functions written in C, but with a Python explicit frontend. This gives Numpy computation speed comparable to buffered C, but the convenience of coding in Python. The Numpy syntax should be familiar to those experienced with Matlab. Scipy Scipy is a toolbox built on to Numpy and provide a vast collection of numerical optimization and processing tools. The toolbox contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science and engineering. Matplotlib Matplotlib is the Scipy recommended library for plotting and visualization when using Numpy and Scipy. The library allows for easy production of publication quality figures in a variety of hardcopy formats and interactive environments across platforms.</description></item><item><title>Geographical Information Systems</title><link>https://expertanalytics.no/training/python/gis/</link><pubDate>Sat, 05 Jan 2019 14:17:12 +0100</pubDate><guid>https://expertanalytics.no/training/python/gis/</guid><description>A geographic information system (GIS) is a system designed to capture, store, manipulate, analyze, manage, and present all types of spatial or geographical data. In other words, if a calculations involves using a map, you need to use GIS.
-Course Content In this course, we will give an introduction to GIS. We will go through both how raster images and vector information can be imported, manipulated, brought together, visualized and exported.
-Prerequisite The course requires familiarity with the Numpy, Scipy and Matplotlib libraries, introduced here.
-Duration: 2 hours Tools Introduced Rasterio Rasterio employs GDAL under the hood for file I/O and raster formatting. Its functions typically accept and return Numpy ndarrays. Rasterio is designed to make working with geospatial raster data more productive. Fiona Fiona is OGR&amp;rsquo;s neat, nimble, no-nonsense API for Python programmers. Fiona is designed to be simple and dependable. It focuses on reading and writing data in standard Python IO style and relies upon familiar Python types and protocols such as files, dictionaries, mappings, and iterators instead of classes specific to OGR. Pyproj Pyproj allows for forward and inverse cartographic transformations and geodetic computations using the Proj.4 library, the current standard for such transformations and computations.</description></item><item><title>Statistical Inference</title><link>https://expertanalytics.no/training/python/statistics/</link><pubDate>Sat, 05 Jan 2019 14:17:22 +0100</pubDate><guid>https://expertanalytics.no/training/python/statistics/</guid><description>Datasets are in many applications getting so large and complex that traditional data processing applications are becoming inadequate. Challenges include analysis, capture, data curation, search, sharing, storage, transfer, visualization, querying and information privacy to mention some aspects of the problem.
-Course Content In this course we will give an introduction to data frames; containers for large datasets. It give an overview of how to import and manipulate datasets, and perform various statistical estimations, with focus on how to interpret the datasets properly.
-Prerequisite The course requires familiarity with the Numpy, Scipy and Matplotlib libraries, introduced here.
-Duration: 2-6 hours Tools Introduced Pandas Pandas is a software library written for the Python for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. Statsmodels Statsmodels is a Python module that allows users to explore data, estimate statistical models, and perform statistical tests. An extensive list of descriptive statistics, statistical tests, plotting functions, and result statistics are available for different types of data and each estimator.</description></item><item><title>Testing Suites</title><link>https://expertanalytics.no/training/python/testing/</link><pubDate>Sat, 05 Jan 2019 14:17:29 +0100</pubDate><guid>https://expertanalytics.no/training/python/testing/</guid><description>A development platform is only as good as the testing environment. As any project grows, a proper framework for implementing tests can provide an objective, independent view of the software to allow the business to appreciate and understand the risks of software implementation.
-Course Content In this course, we will give an introduction to testing in Python. We will show how simple functionality can be integrated into the documentation through doctest, and how to scale the functionality.
-Prerequisite This course requires some familiarity with the Python programming language, introduced here.
-Duration: 1 Hour Tools Introduced Pytest Pytest is a testing framework aimed at making a minimal formulation, but yet scales well into complex functional testing for applications and libraries. It integrates well with most other testing frameworks available in Python, like Doctest, Nose and Unittest.</description></item><item><title>Deployment</title><link>https://expertanalytics.no/training/python/deployment/</link><pubDate>Sat, 05 Jan 2019 14:17:35 +0100</pubDate><guid>https://expertanalytics.no/training/python/deployment/</guid><description>Using libraries is an integral part of using Python properly. As a collection of tools grows, it will at some point make sense to make your own Python libraries.
-Course Content In this course we will introduce code deployment in Python. In addition, some best practices advice will be discussed to let the code reflect the deployment.
-Prerequisite This course requires some familiarity with the Python programming language, introduced here.
-Duration: 1 hour Tools Introduced Distutils The Distutils package provides support for building and installing additional modules into a Python installation. The new modules may either be 100% pure Python, extension modules written in C, or collections of Python packages which include modules coded in both Python and C.</description></item><item><title>Web Development</title><link>https://expertanalytics.no/training/python/web/</link><pubDate>Sat, 05 Jan 2019 14:18:15 +0100</pubDate><guid>https://expertanalytics.no/training/python/web/</guid><description>Python is an excellent platform for creating web applications. One of the more popular tools for this task, that also embraces the expressiveness of Python, is the Flask framework.
-Course Content Here you will learn how to get a basic website up and running using the Flask framework. We will also show how the application easily can be extended from the large collection of extensions, and how to maintain such an application. Some time will also be allotted to introducing Nginx.
-Prerequisite This course requires some familiarity with the Python programming language, introduced here.
-Experience with HTML/JS/CSS is recommended, but not required.
-Duration: 2-8 hours Tools Introduced Flask Flask is a popular web framework written in Python. It is a minimal core that can be extended with features; using add-on modules for most features. Amongst the applications of Flask, we find both Pinterest and Linkedin. Nginx Nginx is a web server. It can act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache.</description></item><item><title>Machine Learning</title><link>https://expertanalytics.no/training/python/machine-learning/</link><pubDate>Sat, 05 Jan 2019 14:18:30 +0100</pubDate><guid>https://expertanalytics.no/training/python/machine-learning/</guid><description>Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed. It is the study and construction of algorithms that can learn from and make predictions on data. Such algorithms operate by building a model from example inputs in order to make data-driven predictions or decisions, rather than following strictly static program instructions. The term &amp;ldquo;machine learning&amp;rdquo; is an umbrella term and can be used to describe one of the following topics:
-Classification: Identifying categories an object belongs to. Regression: Predict values associated with objects. Clustering: Automatically group similar objects into sets. Dimension reduction: Make large-scale problems more manageable. Model selection: Find and calibrate the best models. Preprocessing: Normalizing of raw data preparing it for learning algorithms. Course Content In this course we will focus on the application of tools to perform various aspects of machine learning, using the Scikit-learn toolkit. We will touch base on how the various algorithms work.
-Prerequisite The course requires familiarity with the Numpy, Scipy and Matplotlib libraries, introduced here.
-Duration: 4-6 hours Tools Introduced Scikit-Learn Scikit-learn is an open source machine learning library for the Python programming language. It features various classification, regression and clustering algorithms, including support vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries Numpy and Scipy.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Expert Analytics</title><link>https://expertanalytics.no/training/python/</link><description>Recent content in Python on Expert Analytics</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 05 Jan 2019 14:18:30 +0100</lastBuildDate><atom:link href="https://expertanalytics.no/training/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to Python</title><link>https://expertanalytics.no/training/python/introduction/</link><pubDate>Sat, 05 Jan 2019 14:16:58 +0100</pubDate><guid>https://expertanalytics.no/training/python/introduction/</guid><description>&lt;p>An introduction to the Python programming language. An excellent
+starting point for those who have never used Python before, but want
+to learn what it is about.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>The course will introduce how to create and use the following code
+structures:&lt;/p>
+&lt;ul>
+&lt;li>Variables and data types&lt;/li>
+&lt;li>for- and while-loops&lt;/li>
+&lt;li>Branches&lt;/li>
+&lt;li>Functions&lt;/li>
+&lt;li>Classes&lt;/li>
+&lt;/ul>
+&lt;p>The course also covers an introduction to the Python interpreter and
+code documentation for easy navigation in the Python landscape.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>This course aims at the introduction to Python without any prior
+knowledge about the language.&lt;/p>
+&lt;h2 id="duration-2-6-hours">Duration: 2-6 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Python&lt;/dt>
+&lt;dd>Python is a widely used high-level, general-purpose, interpreted,
+dynamic programming language. Its design philosophy emphasizes code
+readability, and its syntax allows programmers to express concepts
+in fewer lines of code than would be possible in languages such as
+C++ or Java. The language provides constructs intended to enable
+clear programs on both a small and large scale.&lt;/dd>
+&lt;/dl></description></item><item><title>Numerical Python</title><link>https://expertanalytics.no/training/python/numerical/</link><pubDate>Sat, 05 Jan 2019 14:17:03 +0100</pubDate><guid>https://expertanalytics.no/training/python/numerical/</guid><description>&lt;p>The large majority of mathematical modeling requires proper numerical
+software. We at Expert Analytics believe that the corner stone for the
+vast majority of such problems should be solved using Python. (Though
+in many cases it should be combined with programs written in C++, as
+addressed &lt;a href="https://expertanalytics.no/training/cross-language/c-python/">here&lt;/a>)&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course we will give an introduction to numerical Python. We
+will focus on computational speed and illustrate how to process large
+data structures using Python&amp;rsquo;s minimal formulation. The course will
+also introduce some of the most popular numerical processing tools and
+visualize the results.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>This course requires some familiarity with the Python programming
+language, introduced here.&lt;/p>
+&lt;h2 id="duration-2-4-hours">Duration: 2-4 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Numpy&lt;/dt>
+&lt;dd>Numpy is the most popular tool for performing numerical operations
+in Python. The library consist of functions written in C, but with a
+Python explicit frontend. This gives Numpy computation speed
+comparable to buffered C, but the convenience of coding in
+Python. The Numpy syntax should be familiar to those experienced
+with Matlab.&lt;/dd>
+&lt;dt>Scipy&lt;/dt>
+&lt;dd>Scipy is a toolbox built on to Numpy and provide a vast collection
+of numerical optimization and processing tools. The toolbox contains
+modules for optimization, linear algebra, integration,
+interpolation, special functions, FFT, signal and image processing,
+ODE solvers and other tasks common in science and engineering.&lt;/dd>
+&lt;dt>Matplotlib&lt;/dt>
+&lt;dd>Matplotlib is the Scipy recommended library for plotting and
+visualization when using Numpy and Scipy. The library allows for
+easy production of publication quality figures in a variety of
+hardcopy formats and interactive environments across platforms.&lt;/dd>
+&lt;/dl></description></item><item><title>Geographical Information Systems</title><link>https://expertanalytics.no/training/python/gis/</link><pubDate>Sat, 05 Jan 2019 14:17:12 +0100</pubDate><guid>https://expertanalytics.no/training/python/gis/</guid><description>&lt;p>A geographic information system (GIS) is a system designed to capture,
+store, manipulate, analyze, manage, and present all types of spatial
+or geographical data. In other words, if a calculations involves using
+a map, you need to use GIS.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course, we will give an introduction to GIS. We will go
+through both how raster images and vector information can be imported,
+manipulated, brought together, visualized and exported.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>The course requires familiarity with the
+&lt;a href="https://www.numpy.org/">Numpy&lt;/a>, &lt;a href="https://scipy.org/">Scipy&lt;/a> and
+&lt;a href="https://matplotlib.org/">Matplotlib&lt;/a> libraries, introduced
+&lt;a href="https://expertanalytics.no/training/python/numerical/">here&lt;/a>.&lt;/p>
+&lt;h2 id="duration-2-hours">Duration: 2 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Rasterio&lt;/dt>
+&lt;dd>&lt;a href="https://github.com/mapbox/rasterio">Rasterio&lt;/a> employs
+&lt;a href="https://gdal.org/">GDAL&lt;/a> under the hood for file I/O and raster
+formatting. Its functions typically accept and return Numpy
+ndarrays. Rasterio is designed to make working with geospatial
+raster data more productive.&lt;/dd>
+&lt;dt>Fiona&lt;/dt>
+&lt;dd>&lt;a href="https://github.com/Toblerity/Fiona">Fiona&lt;/a> is
+&lt;a href="https://gdal.org/">OGR&lt;/a>&amp;rsquo;s neat, nimble, no-nonsense API for Python
+programmers. Fiona is designed to be simple and dependable. It
+focuses on reading and writing data in standard Python IO style and
+relies upon familiar Python types and protocols such as files,
+dictionaries, mappings, and iterators instead of classes specific to
+OGR.&lt;/dd>
+&lt;dt>Pyproj&lt;/dt>
+&lt;dd>&lt;a href="https://github.com/jswhit/pyproj">Pyproj&lt;/a> allows for forward and
+inverse cartographic transformations and geodetic computations using
+the &lt;a href="https://github.com/OSGeo/proj.4">Proj.4&lt;/a> library, the current
+standard for such transformations and computations.&lt;/dd>
+&lt;/dl></description></item><item><title>Statistical Inference</title><link>https://expertanalytics.no/training/python/statistics/</link><pubDate>Sat, 05 Jan 2019 14:17:22 +0100</pubDate><guid>https://expertanalytics.no/training/python/statistics/</guid><description>&lt;p>Datasets are in many applications getting so large and complex that
+traditional data processing applications are becoming
+inadequate. Challenges include analysis, capture, data curation,
+search, sharing, storage, transfer, visualization, querying and
+information privacy to mention some aspects of the problem.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course we will give an introduction to data frames; containers
+for large datasets. It give an overview of how to import and
+manipulate datasets, and perform various statistical estimations, with
+focus on how to interpret the datasets properly.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>The course requires familiarity with the
+&lt;a href="https://www.numpy.org/">Numpy&lt;/a>, &lt;a href="https://scipy.org/">Scipy&lt;/a> and
+&lt;a href="https://matplotlib.org/">Matplotlib&lt;/a> libraries, introduced
+&lt;a href="https://expertanalytics.no/training/python/numerical/">here&lt;/a>.&lt;/p>
+&lt;h2 id="duration-2-6-hours">Duration: 2-6 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Pandas&lt;/dt>
+&lt;dd>&lt;a href="https://pandas.pydata.org/">Pandas&lt;/a> is a software library written
+for the Python for data manipulation and analysis. In particular, it
+offers data structures and operations for manipulating numerical
+tables and time series.&lt;/dd>
+&lt;dt>Statsmodels&lt;/dt>
+&lt;dd>&lt;a href="https://www.statsmodels.org/stable/index.html">Statsmodels&lt;/a> is a
+Python module that allows users to explore data, estimate
+statistical models, and perform statistical tests. An extensive list
+of descriptive statistics, statistical tests, plotting functions,
+and result statistics are available for different types of data and
+each estimator.&lt;/dd>
+&lt;/dl></description></item><item><title>Testing Suites</title><link>https://expertanalytics.no/training/python/testing/</link><pubDate>Sat, 05 Jan 2019 14:17:29 +0100</pubDate><guid>https://expertanalytics.no/training/python/testing/</guid><description>&lt;p>A development platform is only as good as the testing environment. As
+any project grows, a proper framework for implementing tests can
+provide an objective, independent view of the software to allow the
+business to appreciate and understand the risks of software
+implementation.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course, we will give an introduction to testing in Python. We
+will show how simple functionality can be integrated into the
+documentation through doctest, and how to scale the functionality.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>This course requires some familiarity with the Python programming
+language, introduced &lt;a href="https://expertanalytics.no/training/python/introduction/">here&lt;/a>.&lt;/p>
+&lt;h2 id="duration-1-hour">Duration: 1 Hour&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Pytest&lt;/dt>
+&lt;dd>&lt;a href="https://www.pytest.org/">Pytest&lt;/a> is a testing framework aimed at
+making a minimal formulation, but yet scales well into complex
+functional testing for applications and libraries. It integrates
+well with most other testing frameworks available in Python, like
+&lt;a href="https://docs.python.org/3/library/doctest.html">Doctest&lt;/a>,
+&lt;a href="https://nose.readthedocs.io">Nose&lt;/a> and
+&lt;a href="https://docs.python.org/3/library/unittest.html">Unittest&lt;/a>.&lt;/dd>
+&lt;/dl></description></item><item><title>Deployment</title><link>https://expertanalytics.no/training/python/deployment/</link><pubDate>Sat, 05 Jan 2019 14:17:35 +0100</pubDate><guid>https://expertanalytics.no/training/python/deployment/</guid><description>&lt;p>Using libraries is an integral part of using Python properly. As a
+collection of tools grows, it will at some point make sense to make
+your own Python libraries.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course we will introduce code deployment in Python. In
+addition, some best practices advice will be discussed to let the code
+reflect the deployment.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>This course requires some familiarity with the Python programming
+language, introduced &lt;a href="https://expertanalytics.no/training/python/introduction/">here&lt;/a>.&lt;/p>
+&lt;h2 id="duration-1-hour">Duration: 1 hour&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Distutils&lt;/dt>
+&lt;dd>The Distutils package provides support for building and installing
+additional modules into a Python installation. The new modules may
+either be 100% pure Python, extension modules written in C, or
+collections of Python packages which include modules coded in both
+Python and C.&lt;/dd>
+&lt;/dl></description></item><item><title>Web Development</title><link>https://expertanalytics.no/training/python/web/</link><pubDate>Sat, 05 Jan 2019 14:18:15 +0100</pubDate><guid>https://expertanalytics.no/training/python/web/</guid><description>&lt;p>Python is an excellent platform for creating web applications. One of
+the more popular tools for this task, that also embraces the
+expressiveness of Python, is the &lt;a href="http://flask.pocoo.org/">Flask&lt;/a>
+framework.&lt;/p>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>Here you will learn how to get a basic website up and running using
+the Flask framework. We will also show how the application easily can
+be extended from the large collection of extensions, and how to
+maintain such an application. Some time will also be allotted to
+introducing &lt;a href="https://nginx.org/">Nginx&lt;/a>.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>This course requires some familiarity with the Python programming
+language, introduced &lt;a href="https://expertanalytics.no/training/python/introduction/">here&lt;/a>.&lt;/p>
+&lt;p>Experience with HTML/JS/CSS is recommended, but not required.&lt;/p>
+&lt;h2 id="duration-2-8-hours">Duration: 2-8 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Flask&lt;/dt>
+&lt;dd>Flask is a popular web framework written in Python. It is a minimal
+core that can be extended with features; using add-on modules for
+most features. Amongst the applications of Flask, we find both
+Pinterest and Linkedin.&lt;/dd>
+&lt;dt>Nginx&lt;/dt>
+&lt;dd>Nginx is a web server. It can act as a reverse proxy server for
+HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load
+balancer and an HTTP cache.&lt;/dd>
+&lt;/dl></description></item><item><title>Machine Learning</title><link>https://expertanalytics.no/training/python/machine-learning/</link><pubDate>Sat, 05 Jan 2019 14:18:30 +0100</pubDate><guid>https://expertanalytics.no/training/python/machine-learning/</guid><description>&lt;p>Machine learning is the field of study that gives computers the
+ability to learn without being explicitly programmed. It is the study
+and construction of algorithms that can learn from and make
+predictions on data. Such algorithms operate by building a model from
+example inputs in order to make data-driven predictions or decisions,
+rather than following strictly static program instructions. The term
+&amp;ldquo;machine learning&amp;rdquo; is an umbrella term and can be used to describe one
+of the following topics:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Classification:&lt;/strong> Identifying categories an object belongs to.&lt;/li>
+&lt;li>&lt;strong>Regression:&lt;/strong> Predict values associated with objects.&lt;/li>
+&lt;li>&lt;strong>Clustering:&lt;/strong> Automatically group similar objects into sets.&lt;/li>
+&lt;li>&lt;strong>Dimension reduction:&lt;/strong> Make large-scale problems more manageable.&lt;/li>
+&lt;li>&lt;strong>Model selection:&lt;/strong> Find and calibrate the best models.&lt;/li>
+&lt;li>&lt;strong>Preprocessing:&lt;/strong> Normalizing of raw data preparing it for learning
+algorithms.&lt;/li>
+&lt;/ul>
+&lt;h2 id="course-content">Course Content&lt;/h2>
+&lt;p>In this course we will focus on the application of tools to perform
+various aspects of machine learning, using the
+&lt;a href="https://scikit-learn.org/">Scikit-learn&lt;/a> toolkit. We will touch base
+on how the various algorithms work.&lt;/p>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>The course requires familiarity with the
+&lt;a href="https://www.numpy.org/">Numpy&lt;/a>, &lt;a href="https://scipy.org/">Scipy&lt;/a> and
+&lt;a href="https://matplotlib.org/">Matplotlib&lt;/a> libraries, introduced
+&lt;a href="https://expertanalytics.no/training/python/numerical/">here&lt;/a>.&lt;/p>
+&lt;h2 id="duration-4-6-hours">Duration: 4-6 hours&lt;/h2>
+&lt;h2 id="tools-introduced">Tools Introduced&lt;/h2>
+&lt;dl>
+&lt;dt>Scikit-Learn&lt;/dt>
+&lt;dd>&lt;a href="https://scikit-learn.org/">Scikit-learn&lt;/a> is an open source machine
+learning library for the Python programming language. It features
+various classification, regression and clustering algorithms,
+including support vector machines, random forests, gradient
+boosting, k-means and DBSCAN, and is designed to interoperate with
+the Python numerical and scientific libraries Numpy and Scipy.&lt;/dd>
+&lt;/dl></description></item></channel></rss>
